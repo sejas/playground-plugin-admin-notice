@@ -1,0 +1,23 @@
+{
+    "landingPage": "/wp-admin/",
+    "steps": [
+        {
+            "step": "setSiteOptions",
+            "options": {
+                "playground_admin_notice": "This is a custom message."
+            }
+        },
+        {
+            "step": "installPlugin",
+            "pluginZipFile": {
+                "resource": "url",
+                "url": "https://raw.githubusercontent.com/sejas/playground-plugin-admin-notice/main/playground-plugin-admin-notice.zip"
+            }
+        },
+        {
+            "step": "login",
+            "username": "admin",
+            "password": "password"
+        }
+    ]
+}
