@@ -8,12 +8,11 @@ This repository includes the [plugin source code](playground-plugin-admin-notice
 
 ## How to use
 
-This repository is designed for using the `raw` GitHub URLs to load both the plugin and the blueprint into the playground.
+This repository is designed for using the `raw` GitHub URLs to load both the plugin and the blueprint into the WordPress Playground.
 
 ### WordPress Playground URLs
 
 - Loading the blueprint as URL fragment: [`https://playground.wordpress.net/#{"landingPage":"/wp-admin/","steps":[{"step":"installPlugin","pluginZipFile":{"resource":"url","url":"https://raw.githubusercontent.com/sejas/playground-plugin-admin-notice/main/playground-plugin-admin-notice.zip"}},{"step":"login","username":"admin","password":"password"}]}`](https://playground.wordpress.net/#{"landingPage":"/wp-admin/","steps":[{"step":"installPlugin","pluginZipFile":{"resource":"url","url":"https://raw.githubusercontent.com/sejas/playground-plugin-admin-notice/main/playground-plugin-admin-notice.zip"}},{"step":"login","username":"admin","password":"password"}]})
-- Loading the blueprint usint the URL: [`https://https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/sejas/playground-plugin-admin-notice/main/playground-plugin-admin-notice.zip`](https://https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/sejas/playground-plugin-admin-notice/main/playground-plugin-admin-notice.zip)
 
 ### Override WordPress notice message using options
 
