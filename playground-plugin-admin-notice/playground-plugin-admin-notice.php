@@ -12,7 +12,7 @@
  */
 
  add_action('admin_notices', function () {
-    $custom_message = get_option('playground_admin_notice', 'WordPress running inside WordPress Playground.');
+    $custom_message = get_option('playground_admin_notice', 'Running inside WordPress Playground.');
 
     ?>
     <div class="notice notice-info">
