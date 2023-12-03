@@ -12,11 +12,14 @@
  */
 
 
-add_action('admin_notices', function () {
+ add_action('admin_notices', function () {
+    $custom_message = get_option('playground_admin_notice', 'WordPress running inside WordPress Playground.');
+
     ?>
-    <div class="notice notice-success is-dismissible">
-        <p><?php _e('WordPress running inside the Playground.', 'playground-plugin-admin-notice'); ?></p>
+    <div class="notice notice-info">
+        <p><?php _e($custom_message, 'playground-plugin-admin-notice'); ?></p>
     </div>
     <?php
 });
+
 
