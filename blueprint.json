@@ -5,7 +5,7 @@
             "step": "installPlugin",
             "pluginZipFile": {
                 "resource": "url",
-                "url": "https://github.com/sejas/playground-plugin-admin-notice/raw/main/playground-plugin-admin-notice.zip"
+                "url": "https://raw.githubusercontent.com/sejas/playground-plugin-admin-notice/main/playground-plugin-admin-notice.zip"
             }
         },
         {
