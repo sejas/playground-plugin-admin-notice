@@ -4,6 +4,8 @@ Basic example to display an admin notice inside WordPress the WordPress Playgrou
 
 It contains the [plugin sourcecode](playground-plugin-admin-notice), the [plugin zip file](playground-plugin-admin-notice.zip), and the [blueprint.json](blueprint.json) to run it.
 
+![Screenshot](screenshot.png)
+
 ## How to use
 
 This repo exists to use the `raw` GitHub URLs to load the plugin and the blueprint into the playground.
