@@ -11,7 +11,6 @@
  * Text Domain: playground-plugin-admin-notice
  */
 
-
  add_action('admin_notices', function () {
     $custom_message = get_option('playground_admin_notice', 'WordPress running inside WordPress Playground.');
 
