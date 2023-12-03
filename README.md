@@ -2,7 +2,7 @@
 
 Basic example demonstrating how to display an admin notice inside the WordPress Playground.
 
-This repository includes the [plugin source code](playground-plugin-admin-notice), the [plugin ZIP file](playground-plugin-admin-notice.zip), the default [blueprint.json](blueprint.json), and the [blueprint-override-message.json](blueprint-override-message.json) for overriding the default message..
+This repository includes the [plugin source code](playground-plugin-admin-notice), the [plugin ZIP file](playground-plugin-admin-notice.zip), the default [blueprint.json](blueprint.json), and the [blueprint-override-message.json](blueprint-override-message.json) for overriding the default message.
 
 ![Screenshot](screenshot.png)
 
