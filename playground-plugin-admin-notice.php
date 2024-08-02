@@ -17,6 +17,7 @@
     ?>
     <div class="notice notice-info">
         <p><?php _e($custom_message, 'playground-plugin-admin-notice'); ?></p>
+        <p> This is a test to try the GitHub Deployments </p>
     </div>
     <?php
 });
